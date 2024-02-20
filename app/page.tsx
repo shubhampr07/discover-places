@@ -8,7 +8,7 @@ export default function Home() {
 
   const [placeList, setPlaceList] = useState([]);
   useEffect(()=>{
-    getPlaceList('Clubs in Bangkok');
+    getPlaceList('Hotels in Dubai');
 
  },[])
 
